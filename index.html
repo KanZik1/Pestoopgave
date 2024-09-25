@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jensens Bøfhus</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/indhold.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <style>
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Styling for the fixed navigation bar */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000; /* Ensures nav is above other elements */
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem; /* Adds some padding */
+        }
+
+        /* Adds margin to the top of the main content to prevent overlap with the nav */
+        main {
+            margin-top: 80px; /* Adjust based on the height of your header */
+        }
+
+        /* Hero image styles */
+        .hero-image {
+            height: 400px; /* Adjust the height as needed */
+            background-image: url('https://via.placeholder.com/1200x400'); /* Replace with your desired image URL */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white; /* Change text color to white for better visibility */
+            text-align: center;
+            font-size: 2rem; /* Adjust font size as needed */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Find restaurant</a></li>
+                <li><a href="#">Club Jensens</a></li>
+            </ul>
+            <div class="logo">
+                <h1>JENSENS BØFHUS</h1>
+            </div>
+            <!-- Separate buttons for Take Away and Book Bord -->
+            <div class="nav-buttons">
+                <a href="#" class="nav-btn take-away">Take Away</a>
+                <a href="#" class="nav-btn book-bord">Book bord</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Image Section -->
+    <section class="hero-image">
+        <!-- <h1>Velkommen til Jensens Bøfhus</h1> -->
+    </section>
+
+    <main>
+        <div class="background-container-1">
+            <section class="box-container">
+                <article class="box">
+                    <img src="https://via.placeholder.com/150x100" alt="Billede 1">
+                    <h2>Titel 1</h2>
+                </article>
+        
+                <article class="box">
+                    <img src="https://via.placeholder.com/150x100" alt="Billede 2">
+                    <h2>Titel 2</h2>
+                </article>
+        
+                <article class="box">
+                    <img src="https://via.placeholder.com/150x100" alt="Billede 3">
+                    <h2>Titel 3</h2>
+                </article>
+            </section>
+            <div class="button-container">
+                <button class="custom-btn">Læs mere</button>
+            </div>
+            <section class="welcome-section">
+                <h1>Velkommen til Jensens Bøfhus</h1>
+                <p>Vi mener, at det vigtigste i livet er at bruge tid med dem, du holder af. Og da snakken flyder så fint over et godt måltid, glæder vi os til at byde jer velkommen på Jensens Bøfhus.</p>
+            </section>
+        </div>
+
+        <section class="child-section">
+            <div class="child-section-image">
+                <img src="https://via.placeholder.com/300" alt="Vi elsker, når I tager børn med!">
+            </div>
+            <div class="child-section-content">
+                <h2>Vi elsker, når I tager børn med!</h2>
+                <p>Bare tanken om at komme på restaurant kan være magisk for børn. Så vi gør os umage for at indfri forventningens glæde, når vi møder vores mindste gæster. Ta’ børnene med, og mærk selv.</p>
+                <button class="cta-button">Læs mere</button>
+            </div>
+        </section>
+        
+        <section class="job-section">
+            <div class="job-section-content">
+                <h2>Vil du spise sovs hver dag?</h2>
+                <p>Skal du have job hos Jensens Bøfhus? Vi har altid brug for kolleger med god energi, et smil på læben og en forkærlighed for sovs.</p>
+                <button class="cta-button">Søg Job</button>
+            </div>
+            <div class="job-section-image">
+                <img src="https://via.placeholder.com/300" alt="Vil du spise sovs hver dag?">
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-logo">
+                <img src="https://via.placeholder.com/100" alt="Jensens Bøfhus Logo">
+                <p>Tid til at være sammen</p>
+            </div>
+            <div class="footer-info">
+                <h3>Jensens Bøfhus (HQ)</h3>
+                <p>Cortex Park 12, 7<br>5230 Odense M<br>CVR: DK 13 21 25 38</p>
+                <p>+45 70 30 40 50<br><a href="mailto:info@jensens.com">info@jensens.com</a></p>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Om Jensens Bøfhus</a></li>
+                    <li><a href="#">Club Jensens – Vilkår</a></li>
+                    <li><a href="#">Handelsbetingelser</a></li>
+                    <li><a href="#">Presse</a></li>
+                    <li><a href="#">Kontakt & FAQ</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Privatlivs- og Cookiepolitik</a></li>
+                    <li><a href="#">Cookie Indstillinger</a></li>
+                    <li><a href="#">Too Good to Go</a></li>
+                    <li><a href="#">Allergenliste</a></li>
+                    <li><a href="#">Findsmiley.dk</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-payment">
+                <img src="https://via.placeholder.com/200x50" alt="Payment Methods">
+            </div>
+            <div class="footer-social">
+                <a href="#"><img src="https://via.placeholder.com/24" alt="Facebook"></a>
+                <a href="#"><img src="https://via.placeholder.com/24" alt="Instagram"></a>
+                <a href="#"><img src="https://via.placeholder.com/24" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
