@@ -37,7 +37,8 @@
 
 .custom-btn {
     padding: 0.75rem 2rem;
-    border: 2px solid #b52830; /* Red border */
+    border: 2px solid #b52830;
+    /* Red border */
     background-color: transparent;
     color: #b52830;
     font-size: 1rem;
@@ -45,11 +46,12 @@
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.3s ease;
-    
+
 }
 
 .custom-btn:hover {
-    background-color: #b52830; /* Red background on hover */
+    background-color: #b52830;
+    /* Red background on hover */
     color: white;
 }
 
@@ -190,31 +192,24 @@
 
 .child-section-image img,
 .job-section-image img {
-    width: 300px; /* Bredde på billedet */
-    height: 300px; /* Højde på billedet */
-    border-radius: 50%; /* Rundt billede */
-    border: 4px solid red; /* Rød kant */
-    object-fit: cover; /* Bevar proportioner */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Skygge for dybde */
+    width: 300px;
+    /* Bredde på billedet */
+    height: 300px;
+    /* Højde på billedet */
+    border-radius: 50%;
+    /* Rundt billede */
+    border: 4px solid red;
+    /* Rød kant */
+    object-fit: cover;
+    /* Bevar proportioner */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Skygge for dybde */
 }
 
-
-.child-section-content,
-.job-section-content {
-    flex: 1;
-    padding: 20px;
-    text-align: center; /* Centrerer indholdet */
-}
-
-.child-section-content h2,
-.job-section-content h2 {
-    font-size: 32px;
-    color: #333;
-    margin-bottom: 10px; /* Juster afstand mellem titel og knap */
-}
 
 .cta-button {
-    margin-top: 10px; /* Juster afstand mellem titel og knap */
+    margin-top: 10px;
+    /* Juster afstand mellem titel og knap */
     background-color: transparent;
     border: 2px solid red;
     color: red;
@@ -222,10 +217,12 @@
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Tilføj glidning */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Tilføj glidning */
 }
 
 .cta-button:hover {
     background-color: red;
-    color: #fff; /* Hvid tekst ved hover */
+    color: #fff;
+    /* Hvid tekst ved hover */
 }
